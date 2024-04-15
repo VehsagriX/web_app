@@ -1,0 +1,32 @@
+{% extends 'main/layout.html' %}
+
+{% block title%} {{title}} {% endblock %}
+
+
+
+{% block content%}
+    <div class="features">
+        <h1>{{title}}</h1>
+        {% filter upper %}
+        <p>
+            Добро пожаловать в мой мини-проект с использованием Django!)
+            В этом проекте я начал свой путь с этим фреймворком. Моя дальнейшая цель развиваться в направлении Python- разработчика, и я уверен, что у меня все получится
+            Хочу поделиться со своим проектом для демонстрации своих знаний)
+        </p>
+        {% endfilter %}
+
+         {% for el in values%}
+            {% if el == 'hello' %}
+
+                <p>{{ el|upper }}</p>
+
+            {% endif %}
+        {% endfor%}
+        <a href="{% url 'about' %}" class="btn btn-warning">На страницу про нас</a>
+
+
+
+    </div>
+
+
+{% endblock %}

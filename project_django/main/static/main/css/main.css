@@ -1,0 +1,130 @@
+body{
+    background: #045936;
+    color: #fcfafa;
+}
+
+aside{
+    height: 100%;
+    float: left;
+    background: #0e290a;
+    width: 20%
+    padding: 2.5%;
+    height: 100vh;
+    color: #fcfafa;
+    border-right: 5px solid #4d4d4d;
+
+}
+
+aside img{
+    width: 80px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    bottom: -5px;
+    padding-right: 5px;
+}
+
+aside h3{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+aside ul{list-style: none}
+
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+aside ul li i{
+    margin-right: 10px;
+
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+
+main .features{
+    float: left;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1{
+    font-size: 50px;
+}
+
+main .features p{
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.main-contacts{
+    text-align: center;
+    padding: 2.5%;
+    color: #fcfafa;
+    position: relative;
+}
+
+.main-contacts  ul{list-style:none}
+
+.main-contacts ul a{
+   text-decoration: none;
+}
+.main-contacts ul li i{margin-right: 10px}
+
+.main-contacts ul li{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+.main-contacts ul li:hover{
+    color: #eb5959;
+    transform: scale(1.05);
+}
+
+.main-contacts iframe:{
+    display: block;
+}
+.btn-contacts{
+    color: white;
+    position: absolute;
+    bottom: -25px;
+    left: 484px;
+}

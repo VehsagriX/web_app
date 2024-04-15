@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+{% block title%}Контакты{% endblock %}
+
+
+
+{% block content%}
+       <div class="features">
+        <h1>Контакты</h1>
+        <div class="main-contacts">
+        <ul>
+            <a href=""><li><i class="fa-solid fa-phone"></i>(+992)013719797</li></a>
+            <a href=""><li><i class="fa-solid fa-envelope"></i>khasan.irgashev.97@gmail.com</li></a>
+            <a href=""><li><i class="fa-brands fa-github"></i>https://github.com/VehsagriX</li></a>
+
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.4042101639416!2d68.72910536128924!3d38.589478464344815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d26d4f803039%3A0x650fc084beaaecc2!2z0LrTr9GH0LDQuCDQkNC70LjRiNC10YAg0J3QsNCy0L7ToyAxMywg0JTRg9GI0LDQvdCx0LU!5e0!3m2!1sru!2s!4v1713164637477!5m2!1sru!2s" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="{% url 'home' %}" class="btn btn-info btn-contacts">На главную</a>
+        </div>
+    </div>
+{% endblock %}
